@@ -29,7 +29,8 @@ https://restful-booker.herokuapp.com/apidoc/index.html
 
 **GetBookingIds** : Returns the ids of all the bookings that exist within the API.
 ```bash
-  pytest -m getallbooking  OR  pytest RestfulBooker/tests/test_get_booking.py::TestGetBooking::test_get_all_booking_ids
+  pytest -m getallbooking  
+  OR  pytest RestfulBooker/tests/test_get_booking.py::TestGetBooking::test_get_all_booking_ids
 ```
 
 **Filter by name**
