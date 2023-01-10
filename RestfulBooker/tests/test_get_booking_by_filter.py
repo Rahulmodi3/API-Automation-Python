@@ -15,7 +15,6 @@ def test_get_booking_by_filter():
 
     # get booking id by firstname=Josh
     rs_api = req_obj.get(endpoint='booking', params=params)
-    # check response is dict or list
     logger.info(f"Total same firstname booking id : {len(rs_api)}")
     get_booking_id = rs_api[len(rs_api)-1]['bookingid']
     assert get_booking_id != '', f"Getting empty booking and actual : {get_booking_id}"

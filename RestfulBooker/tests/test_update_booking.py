@@ -6,6 +6,7 @@ from RestfulBooker.src.helpers.booking_helper import BookingHelper
 def test_update_booking():
     book_obj = BookingHelper()
 
+    # if you want to update firstname,lastname or any value than provide to update_booking method
     rs_api = book_obj.update_booking(bookingid=18)
 
     # verify response

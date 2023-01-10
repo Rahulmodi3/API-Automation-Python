@@ -2,7 +2,7 @@ import pytest
 from RestfulBooker.src.helpers.booking_helper import BookingHelper
 
 @pytest.mark.tcid08
-@pytest.mark.partialbooking
+@pytest.mark.partialupdatebooking
 def test_partial_booking():
     book_obj = BookingHelper()
 
